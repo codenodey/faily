@@ -1,5 +1,5 @@
 {
-  "name": "@codeboxy/faily",
+  "name": "@codenodey/faily",
   "version": "0.0.1",
   "description": "Send formatted exception emails for Node.js applications",
   "main": "./dist/index.cjs",

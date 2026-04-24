@@ -1,8 +1,8 @@
-# errory
+# faily
 
 Send formatted exception emails for Node.js applications.
 
-`errory` helps you report runtime errors by email with clean, readable HTML templates including:
+`faily` helps you report runtime errors by email with clean, readable HTML templates including:
 
 - Environment
 - Date
@@ -17,13 +17,13 @@ Perfect for APIs, scripts, cron jobs, admin panels, and internal systems.
 ## Installation
 
 ```bash
-npm install errory meily
+npm install @codenodey/faily meily
 ```
 
 ## Quick start
 
 ```js
-import { emailException } from "errory";
+import { emailException } from "faily";
 
 try {
     throw new Error("Database connection failed");
