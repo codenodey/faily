@@ -1,0 +1,28 @@
+{
+  "name": "errory",
+  "version": "0.0.1",
+  "description": "Email exception",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "node test/exception.js",
+    "build": "rollup -c"
+  },
+  "author": "Cristian Emanuelle Guzmán Suárez",
+  "license": "ISC",
+  "dependencies": {},
+  "peerDependencies": {
+    "meily": "^1.0.4"
+  },
+  "devDependencies": {
+    "rollup": "^4.60.2",
+    "meily": "^1.0.4"
+  }
+}
