@@ -1,5 +1,5 @@
 {
-  "name": "errory",
+  "name": "faily",
   "version": "0.0.1",
   "description": "Send formatted exception emails for Node.js applications",
   "main": "./dist/index.cjs",
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CrisGuzmanS/errory.git"
+    "url": "git+https://github.com/CrisGuzmanS/faily.git"
   },
-  "homepage": "https://github.com/CrisGuzmanS/errory#readme",
+  "homepage": "https://github.com/CrisGuzmanS/faily#readme",
   "bugs": {
-    "url": "https://github.com/CrisGuzmanS/errory/issues"
+    "url": "https://github.com/CrisGuzmanS/faily/issues"
   }
 }
