@@ -1,5 +1,5 @@
 {
-  "name": "@codenodey/faily",
+  "name": "@ellenode/faily",
   "version": "0.0.1",
   "description": "Send formatted exception emails for Node.js applications",
   "main": "./dist/index.cjs",
@@ -33,15 +33,15 @@
     "meily": "^1.0.4"
   },
   "devDependencies": {
-    "rollup": "^4.60.2",
-    "meily": "^1.0.4"
+    "meily": "^1.0.4",
+    "rollup": "^4.60.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CrisGuzmanS/faily.git"
+    "url": "git+https://github.com/ellenode/faily.git"
   },
-  "homepage": "https://github.com/CrisGuzmanS/faily#readme",
+  "homepage": "https://github.com/ellenode/faily#readme",
   "bugs": {
-    "url": "https://github.com/CrisGuzmanS/faily/issues"
+    "url": "https://github.com/ellenode/faily/issues"
   }
 }
