@@ -1,3 +1,4 @@
+import { configDotenv } from "dotenv";
 import { emailException } from "../src/emailExpcetion.js";
 
 try {

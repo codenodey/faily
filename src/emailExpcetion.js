@@ -1,6 +1,13 @@
-import { Mail } from "meily";
+import { Mail } from "@ellenode/maily";
 
-export const emailException = (error, data) => {
+export const emailException = (error, data = {}) => {
+    if (!process.env.MAIL_EXCEPTION_FROM && !process.env.MAIL_TO) {
+        throw new Error("MAIL_EXCEPTION_FROM or MAIL_TO environment variables not found");
+    }
+
+    if (!process.env.MAIL_EXCEPTION_TO && !process.env.MAIL_TO) {
+        throw new Error("MAIL_EXCEPTION_TO or MAIL_TO environment variables not found");
+    }
 
     const date = new Date().toLocaleString('en-CA', {
         year: 'numeric',
@@ -65,11 +72,11 @@ export const emailException = (error, data) => {
             : JSON.stringify(value, null, 2);
 
         value = String(value)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
 
         content += `
             <div style="margin-bottom: 20px">
