@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/ellenode/faily/issues"
   },
-  "peerDependencies": {
-    "@ellenode/maily": "^1.0.6"
+  "dependencies": {
+    "@ellenode/maily": "^1.0.7"
   }
 }

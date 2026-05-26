@@ -17,7 +17,7 @@ Perfect for APIs, scripts, cron jobs, admin panels, and internal systems.
 ## Installation
 
 ```bash
-npm install @ellenode/faily meily
+npm install @ellenode/faily
 ```
 
 ## Quick start
